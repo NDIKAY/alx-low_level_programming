@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
- * Hello puts
+ *main - main entry point
+ *ruturn : always 0 (success)
  */
 int main(void)
 {
