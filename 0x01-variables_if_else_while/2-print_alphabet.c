@@ -10,7 +10,7 @@
 int main(void)
 
 {
-	int lowerCase = 'x';
+	int lowerCase = 'a';
 
 	while (lowerCase <= 'z')
 
