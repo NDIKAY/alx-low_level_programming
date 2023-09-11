@@ -19,10 +19,8 @@ lowCase += 1;
 else
 {
 putchar (lowCase);
-lowCase ++
+lowCase ++;
 }
 }
-putchar('\n');
-Return (0);
-}
-
+putchar('\n')
+utcha
