@@ -1,8 +1,7 @@
 #include <stdio.h>
 /**
  * main - main entry point
- * Description: This is function entry
- * ruturn : always 0 (success)
+ ** Return:0 on sucess
  */
 int main(void)
 {
