@@ -11,7 +11,7 @@ int main(void)
 {
 int lowCase = 'a';
 while (lowCase <= 'z')
-if (lowCase == 'e' || lowcase == 'q')
+if (lowCase == 'e' || lowCase == 'q')
 {
 lowCase += 1;
 }
@@ -19,8 +19,10 @@ lowCase += 1;
 else
 {
 putchar (lowCase);
+lowCase ++
 }
 }
-putchar ('\n');
-return (0);
+putchar('\n');
+Return (0);
+}
 
