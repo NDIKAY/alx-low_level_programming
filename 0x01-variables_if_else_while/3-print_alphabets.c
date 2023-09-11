@@ -18,5 +18,6 @@ while (upperCase <= 'Z')
 putchar(upperCase);
 upperCase += 1;
 }
+putchar(' ');
 return (0);
 }
