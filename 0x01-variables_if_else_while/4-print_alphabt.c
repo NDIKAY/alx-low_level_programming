@@ -20,7 +20,7 @@ lowCase += 1;
 else
 {
 putchar (lowCase);
-lowCase ++;
+lowCase++;
 }
 }
 putchar('\n');
