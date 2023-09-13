@@ -3,7 +3,7 @@
 /**
 *_isalpha - verify ifc is alphabet
 *@c : Parameter to check
-*return: 1 on success
+*Return: 0 or 1
 */
 
 int _isalpha(int c)
