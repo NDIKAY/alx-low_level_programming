@@ -2,6 +2,7 @@
 
 /**
 *_islower - Verfy if c is lower
+*@c: Parameter to verify
 *Return: 1 on success
 */
 
