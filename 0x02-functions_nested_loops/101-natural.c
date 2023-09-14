@@ -1,5 +1,8 @@
-#include "main.h"
 #include <stdio.h>
+/**
+*main - Addition of multiples of 5 and 3 below 1024
+*Return: (0) on success
+*/
 
 int main(void)
 
