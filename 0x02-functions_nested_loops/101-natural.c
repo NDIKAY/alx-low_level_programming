@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
 *main - Addition of multiples of 5 and 3 below 1024
-*Return: (0) on success
+*Return: 0 on succcess
 */
 
 int main(void)
@@ -17,6 +17,5 @@ int main(void)
 			sum = sum + i;
 	}
 	printf("%d\n", sum);
-
+	return (0);
 }
-
