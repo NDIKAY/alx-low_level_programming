@@ -3,7 +3,7 @@
 /**
 *_isupper - verify for uppercase
 *@c: parameter
-*return: 1 if collect
+*Return: 1 if collect
 */
 
 int _isupper(int c)
