@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-*_isdigit - verify for uppercase
+*_isdigit -  verify fo digit
 *@c: parameter
 *return: 1 if collect
 */
