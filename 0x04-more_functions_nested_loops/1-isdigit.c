@@ -3,7 +3,7 @@
 /**
 *_isdigit -  verify fo digit
 *@c: parameter
-*return: 1 if collect
+*Return: 1 if collect
 */
 
 int _isdigit(int c)
