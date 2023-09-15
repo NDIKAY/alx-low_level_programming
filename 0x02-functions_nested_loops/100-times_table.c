@@ -14,21 +14,27 @@ void print_times_table(int n)
 	{
 		for (i = 0; i < n; i++)
 		{
+			_putchar(48);
 			for (j = 0; j < n; j++)
 			{
+				_putchar(',');
+				_putchar(' ');
 				result = i * j;
-				if (j == 0)
-					printf("%d, ", result);
-				else
+				if (result <= 9)
+					_putchar(' ');
+				if (result <= 99)
+				      	_putchar(' ');
+				if (result >= 100)
 				{
-					printf("%d", result);
-					if (j != n)
-						printf(", ");
-				}
+					_putchar((result / 100) + 48);
+					_putchar((result / 10) % 10 + 48);
+				} else if (result <= 99 && result >= 10)
+					_putchar((result / 10) + 48);
+				_putchar((result % 10) + 48);
 			}
-			printf("\n");
+			_putchar('\n');
 		}
-		
+
 	}
 }
-	
+
