@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-*print_most_numbers - Print 0 to 9 except 2 and 4
+*print_most_numbers - to have 0 to 9 except 2 and 4
 *@c: parameter
 *Return: 1 if collect
 */
@@ -11,9 +11,9 @@ void print_most_numbers(void)
 {
 	int a = 0;
 
-	while (a <= 9 )
+	while(a <= 9 )
 	{
-		if(a != 2 && a != 4)
+		if (a != 2 && a != 4)
 		{
 			_putchar(a + '0');
 		}
