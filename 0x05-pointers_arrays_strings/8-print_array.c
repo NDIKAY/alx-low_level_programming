@@ -4,7 +4,7 @@
 /**
 *print_array - Print a set of numbers
 *@a: parameter
-*n@: Parameter
+*@n: Parameter
 */
 
 void print_array(int *a, int n)
@@ -17,7 +17,7 @@ void print_array(int *a, int n)
 	if (j != (n - 1))
 	{
 
-	printf(",");
+	printf(", ");
 	}
 	}
 	printf("\n");
