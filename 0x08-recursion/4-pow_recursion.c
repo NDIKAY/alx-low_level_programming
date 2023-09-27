@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *_pow_recursion: Enter Point
+ *_pow_recursion - Enter Point
  *@x: input
  *@y: input
  *Return: Integer Value
