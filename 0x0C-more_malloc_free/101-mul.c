@@ -4,7 +4,7 @@
 
 /**
  *is_digit - enter point
- *@c: parameter
+ *@s: parameter
  *Return: 0 as output
  */
 int is_digit(char *s)
@@ -17,7 +17,7 @@ int is_digit(char *s)
 			return (0);
 		i++;
 	}
-	return(1);
+	return (1);
 }
 
 /**
@@ -33,7 +33,7 @@ int _strlen(char *s)
 	{
 		i++;
 	}
-	return(i);
+	return (i);
 }
 /**
  * errors - Function
@@ -50,7 +50,7 @@ void errors(void)
  *@argv: array of arguments
  *Return: 0
 */
-int main (int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	char *s1, *s2;
 	int len1, len2, len, i, carry, digit1, digit2, *result, a = 0;
@@ -62,9 +62,9 @@ int main (int argc, char *argv[])
 	len2 = _strlen(s2);
 	len = len1 + len2 + 1;
 	result = malloc(sizeof(int) * len);
-	if(!result)
+	if (!result)
 		return (1);
-	for (i = 0; i <= len1 +len2; i++)
+	for (i = 0; i <= len1 + len2; i++)
 		result[i] = 0;
 	for (len = len1 - 1; len1 >= 0; len1--)
 	{
@@ -74,7 +74,7 @@ int main (int argc, char *argv[])
 		{
 			digit2 = s2[len2] - '0';
 			carry += result[len1 + len2 + 1] + (digit1 * digit2);
-			result[len1 +len2 + 1] = carry % 10;
+			result[len1 + len2 + 1] = carry % 10;
 			carry /= 10;
 		}
 		if (carry > 0)
