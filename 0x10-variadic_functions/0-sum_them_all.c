@@ -4,9 +4,9 @@
 /**
  *sum_them_all - function which sum all the parameter
  *@n: number of parameter passed to function
- *@. . .: a variable number of parameter to calculate the sum
+ *@...: a variable number of parameter to calculate the sum
  *Return: sum
-  */
+ */
 int sum_them_all(const unsigned int n, ...)
 {
 	va_list ap;
