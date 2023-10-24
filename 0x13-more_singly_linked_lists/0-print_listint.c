@@ -2,7 +2,7 @@
 /**
  *print_listint - print the int data in a singly linked list
  *@h: head pointer to the list
- *Return: number of node in the list
+ *Return: counted number of node in the list
  */
 size_t print_listint(const listint_t *h)
 {
