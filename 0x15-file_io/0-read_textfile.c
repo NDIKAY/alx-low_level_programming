@@ -7,7 +7,7 @@
  *Return: 0 when the function fails or filename is NULL
  */
 
-ssize_t read_textfile(const char *filename, size_t letters);
+ssize_t read_textfile(const char *filename, size_t letters)
 {	
 
 	char *buffer;
@@ -20,10 +20,10 @@ ssize_t read_textfile(const char *filename, size_t letters);
 		return (0);
 
 	buffer = malloc(sizeof(char) * letters);
-	t = read(fd, buf, letters);
-	w = write(STDOUT_FILENO, buf, t);
+	t = read(fd, buffer, letters);
+	w = write(STDOUT_FILENO, buffer, t);
 
-	free(buf);
+	free(buffer);
 	close(fd);
 	return (w);
 }
