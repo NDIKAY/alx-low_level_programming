@@ -2,13 +2,13 @@
 #include <stdlib.h>
 
 /**
- * addition - addition function of two numbers
+ * add - addition function of two numbers
  * @a: first number
  * @b: second number
  * Return: sum of two numbers
  */
 
-int addition(int a, int b)
+int add(int a, int b)
 {
 	return (a + b);
 }
