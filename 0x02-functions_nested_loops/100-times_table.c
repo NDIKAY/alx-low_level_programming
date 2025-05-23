@@ -16,7 +16,6 @@ void print_times_table(int n)
 			{
 				result = i * j;
 
-				/* Print comma and spacing for all except first column */
 				if (j != 0)
 				{
 					_putchar(',');
@@ -37,7 +36,6 @@ void print_times_table(int n)
 					}
 				}
 
-				/* Print the number itself */
 				if (result >= 100)
 				{
 					_putchar((result / 100) + '0');
@@ -58,3 +56,4 @@ void print_times_table(int n)
 		}
 	}
 }
+
